@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/color_black_10"
+    android:radius="2000dp">
+        <item android:drawable="@drawable/edit_m09"/>
+</ripple>

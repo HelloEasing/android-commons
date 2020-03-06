@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <com.easing.commons.android.ui.control.view.StatusBarPlaceholder
+        android:id="@+id/v_top"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/color_transparent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/app_back_m03"
+        app:layout_constraintDimensionRatio="2:3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.easing.commons.android.ui.control.loading.LoadingViewI
+        android:id="@+id/v_loading"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@id/text_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="机场鸟情调查与指挥系统"
+        android:textColor="@color/color_black_90"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toTopOf="@id/v_bottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <com.easing.commons.android.ui.control.view.NavigationBarPlaceholder
+        android:id="@+id/v_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/color_black_70"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

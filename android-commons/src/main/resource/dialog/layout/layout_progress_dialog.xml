@@ -1,0 +1,58 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正在加载"
+        android:textColor="@color/color_black"
+        android:textSize="18dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_progress"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="5dp"
+        android:text="0%"
+        android:textColor="@color/color_black_70"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@id/seek_bar"
+        app:layout_constraintLeft_toLeftOf="@id/seek_bar"
+        app:layout_constraintTop_toBottomOf="@id/text_title" />
+
+    <TextView
+        android:id="@+id/text_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="5dp"
+        android:text="0B/0B"
+        android:textColor="@color/color_black_70"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@id/seek_bar"
+        app:layout_constraintRight_toRightOf="@id/seek_bar"
+        app:layout_constraintTop_toBottomOf="@id/text_title" />
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="20dp"
+        android:max="100"
+        android:paddingHorizontal="0dp"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_m06"
+        android:thumb="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

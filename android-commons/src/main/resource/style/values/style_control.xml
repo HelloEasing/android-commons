@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 按钮样式：淡蓝色，200dp宽度，水平居中，上下边距15dp -->
+    <style name="button_m01">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@drawable/color_white</item>
+        <item name="android:background">@drawable/button_m01_ripple</item>
+    </style>
+
+    <!-- 按钮样式：淡蓝色，最大宽度，水平居中，上下边距15dp -->
+    <style name="button_m02">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@drawable/color_white</item>
+        <item name="android:background">@drawable/button_m01_ripple</item>
+    </style>
+
+    <!-- 图标样式：20dp大小，10dp边距，居中缩放 -->
+    <style name="image_view_m01">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+
+    <!-- 下拉框样式：普通状态时白色，按下时淡灰色 -->
+    <style name="selector_m01">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/color_black_70</item>
+        <item name="android:background">@drawable/container_back_m03</item>
+    </style>
+
+    <!-- 分割线样式：1px，浅灰色 -->
+    <style name="split_m01">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/color_light_grey</item>
+    </style>
+
+    <!-- 文本样式：水平居左，垂直居中，字体颜色90度黑，字体大小20dp -->
+    <style name="text_m01">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:textColor">@color/color_black_90</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <!-- 文本样式：水平居左，垂直居中，字体颜色70度黑，字体大小18dp -->
+    <style name="text_m02">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:textColor">@color/color_black_70</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <!-- 文本样式：水平居左，垂直居中，字体颜色70度黑，字体大小18dp，单行显示，长度不够时显示省略号 -->
+    <style name="text_m03">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/color_black_70</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <!-- 标题栏样式：水平居中，垂直居中，字体颜色白色，字体大小20dp，淡蓝色背景 -->
+    <style name="title_m01">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/color_light_blue</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/color_white</item>
+    </style>
+
+    <!-- 编辑框样式：白底灰边圆角输入框，蓝色鼠标指针，高度最小100dp -->
+    <style name="edit_m01">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">100dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">left|top</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/color_black_70</item>
+        <item name="android:textCursorDrawable">@drawable/edit_cursor_m02</item>
+        <item name="android:background">@drawable/container_back_m03</item>
+    </style>
+
+</resources>

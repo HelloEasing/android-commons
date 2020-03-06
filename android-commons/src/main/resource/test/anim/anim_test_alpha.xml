@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:fromAlpha="1"
+    android:repeatCount="infinite"
+    android:repeatMode="reverse"
+    android:toAlpha="0.3" />
+
+    <!--
+    form：           开始状态
+    to：             结束状态
+    duration：       持续时间
+    repeateCount：   重复次数
+    repeateMode：    重复模式
+    pivot：          动画中心
+    startOffset：    开始前间隔
+    fillBefore：     动画结束时保持原始状态
+    fillAfter：      动画结束时保持最终状态
+    interpolator：   插值器（定义FROM到TO的速度变化）
+    -->

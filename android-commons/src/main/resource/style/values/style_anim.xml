@@ -1,0 +1,10 @@
+<resources>
+    <style name="dialog_m01">
+        <item name="android:windowEnterAnimation">@anim/anim_pop_up</item>
+        <item name="android:windowExitAnimation">@anim/anim_pop_down</item>
+    </style>
+
+    <style name="dialog_m02">
+        <item name="android:windowExitAnimation">@anim/anim_pop_down</item>
+    </style>
+</resources>

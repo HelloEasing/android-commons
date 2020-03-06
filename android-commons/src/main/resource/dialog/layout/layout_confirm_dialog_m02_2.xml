@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_black_70"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/container_back_m06"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.1"
+            android:textAllCaps="false"
+            android:textColor="@color/color_white"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="40dp" />
+
+        <com.easing.commons.android.ui.control.button.ImageButtonM1
+            android:id="@+id/bt_ok"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            app:fontSizeScale="80%"
+            app:image="@drawable/icon_yes_m01"
+            app:text="是" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp" />
+
+        <com.easing.commons.android.ui.control.button.ImageButtonM1
+            android:id="@+id/bt_no"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            app:fontSizeScale="80%"
+            app:image="@drawable/icon_no_m01"
+            app:text="否" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

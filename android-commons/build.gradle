@@ -1,0 +1,123 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.jakewharton.butterknife'
+
+android {
+
+    //编译SDK和Tool版本
+    compileSdkVersion 29
+
+    defaultConfig {
+
+        //目标设备版本
+        minSdkVersion 23
+        targetSdkVersion 29
+
+        //开启注解处理器
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+
+        //支持的CPU指令集
+        ndk {
+            abiFilters 'armeabi-v7a'
+        }
+    }
+
+    //Java语法版本
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    //资源位置
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+            jni.srcDirs = []
+            res.srcDirs =
+                    [
+                            'src/main/resource/common',
+                            'src/main/resource/icon',
+                            'src/main/resource/image',
+                            'src/main/resource/control',
+                            'src/main/resource/container',
+                            'src/main/resource/item',
+                            'src/main/resource/button',
+                            'src/main/resource/edit',
+                            'src/main/resource/progress',
+                            'src/main/resource/dialog',
+                            'src/main/resource/anim',
+                            'src/main/resource/color',
+                            'src/main/resource/menu',
+                            'src/main/resource/attr',
+                            'src/main/resource/string',
+                            'src/main/resource/style',
+                            'src/main/resource/activity',
+                            'src/main/resource/test'
+                    ]
+        }
+    }
+
+    //仓库地址
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+dependencies {
+    //官方扩展库
+    api 'androidx.appcompat:appcompat:1.1.0'
+    api 'androidx.constraintlayout:constraintlayout:1.1.3'
+    api 'androidx.recyclerview:recyclerview:1.1.0'
+    api 'androidx.cardview:cardview:1.0.0'
+    api 'com.google.android.material:material:1.0.0'
+    //通用库
+    api 'org.apache.commons:commons-lang3:3.9'
+    api 'commons-codec:commons-codec:1.12'
+    api 'jaxen:jaxen:1.2.0'
+    api 'javax.annotation:javax.annotation-api:1.2'
+    //Apache压缩库，IO库
+    api 'org.apache.commons:commons-compress:1.19'
+    api 'commons-io:commons-io:2.6'
+    //汉语拼音
+    api files('libs/pinyin4j-2.5.1.jar')
+    //MP3录音
+    api files('libs/mp3-recorder.aar')
+    //百度定位
+    api files('libs/BaiduLBS_Android.jar')
+    //XML解析
+    api 'org.dom4j:dom4j:2.1.1'
+    //JSON解析
+    api 'com.google.code.gson:gson:2.8.5'
+    //权限申请
+    api 'com.yanzhenjie:permission:2.0.0-rc4'
+    //ButterKnife控件解析插件
+    api 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+    //OkHttp网络请求框架
+    api 'com.squareup.okhttp3:okhttp:3.10.0'
+    api 'com.squareup.okio:okio:1.17.4'
+    //EventBus消息框架
+    api 'org.greenrobot:eventbus:3.1.1'
+    //GreenDao数据库框架
+    api 'org.greenrobot:greendao:3.2.2'
+    //Lombok注解插件
+    api 'org.projectlombok:lombok:1.16.8'
+    //Glide图片加载框架
+    api 'com.github.bumptech.glide:glide:4.9.0'
+    //Lottie动画框架
+    api 'com.airbnb.android:lottie:3.0.7'
+    //二维码生成
+    api 'com.google.zxing:core:3.4.0'
+    //CRC校验库
+    api 'com.github.snksoft:crc:1.0.2'
+    //第三方控件
+    api 'com.yanzhenjie:recyclerview-swipe:1.1.21'
+    api 'com.nineoldandroids:library:2.4.0'
+    api 'com.joooonho:selectableroundedimageview:1.0.1'
+    api 'cn.carbs.android:AvatarImageView:1.0.4'
+}

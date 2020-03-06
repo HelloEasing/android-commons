@@ -1,0 +1,43 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="@color/color_white"
+    app:contentPadding="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_black_70"
+            android:textSize="18dp" />
+
+        <com.easing.commons.android.ui.control.button.ImageButtonM2
+            android:id="@+id/bt_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:background="@drawable/container_back_m13_ripple"
+            app:image="@drawable/icon_no_m01"
+            app:text="否"
+            app:textColor="@color/color_black_70" />
+
+
+        <com.easing.commons.android.ui.control.button.ImageButtonM2
+            android:id="@+id/bt_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:background="@drawable/container_back_m13_ripple"
+            app:image="@drawable/icon_yes_m01"
+            app:text="是"
+            app:textColor="@color/color_black_70" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="text" format="string" />
+    <attr name="title" format="string" />
+    <attr name="message" format="string" />
+
+    <attr name="fontSize" format="dimension" />
+    <attr name="imageSize" format="dimension" />
+    <attr name="textWidth" format="dimension" />
+    <attr name="width" format="dimension" />
+    <attr name="leftPadding" format="dimension" />
+    <attr name="rightPadding" format="dimension" />
+    <attr name="topPadding" format="dimension" />
+    <attr name="bottomPadding" format="dimension" />
+    <attr name="middlePadding" format="dimension" />
+    <attr name="cornerRadius" format="dimension" />
+    <attr name="borderWidth" format="dimension" />
+
+    <attr name="maxHeight" format="dimension" />
+
+    <attr name="textColor" format="color" />
+    <attr name="imageColor" format="color" />
+    <attr name="normalColor" format="color" />
+    <attr name="activeColor" format="color" />
+    <attr name="normalTextColor" format="color" />
+    <attr name="activeTextColor" format="color" />
+    <attr name="normalImageColor" format="color" />
+    <attr name="activeImageColor" format="color" />
+    <attr name="borderColor" format="color" />
+
+    <attr name="image" format="reference" />
+    <attr name="background" format="reference" />
+
+    <attr name="rowCount" format="integer" />
+    <attr name="tabCount" format="integer" />
+    <attr name="colCount" format="integer" />
+
+    <attr name="lineSpace" format="float" />
+
+    <attr name="border" format="boolean" />
+
+    <attr name="imageSizeScale" format="fraction" />
+    <attr name="fontSizeScale" format="fraction" />
+
+    <declare-styleable name="ImageButtonM1">
+        <attr name="image" />
+        <attr name="background" />
+        <attr name="text" />
+        <attr name="imageSize" />
+        <attr name="fontSizeScale" />
+        <attr name="textWidth" />
+        <attr name="textColor" />
+        <attr name="leftPadding" />
+        <attr name="middlePadding" />
+        <attr name="rightPadding" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageButtonM2">
+        <attr name="image" />
+        <attr name="text" />
+        <attr name="imageSize" />
+        <attr name="textColor" />
+        <attr name="background" />
+    </declare-styleable>
+
+    <declare-styleable name="LyricView">
+        <attr name="fontSize" />
+        <attr name="rowCount" />
+        <attr name="lineSpace" />
+        <attr name="normalTextColor" />
+        <attr name="activeTextColor" />
+    </declare-styleable>
+
+    <declare-styleable name="TabIndicator">
+        <attr name="tabCount" />
+    </declare-styleable>
+
+    <declare-styleable name="VertifyBox">
+        <attr name="phoneViewWidth" format="dimension" />
+        <attr name="codeViewWidth" format="dimension" />
+        <attr name="buttonViewWidth" format="dimension" />
+        <attr name="phoneViewBackground" format="reference" />
+        <attr name="codeViewBackground" format="reference" />
+        <attr name="buttonViewBackground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressLayout">
+        <attr name="message" />
+    </declare-styleable>
+
+    <declare-styleable name="TabItem">
+        <attr name="image" />
+        <attr name="text" />
+        <attr name="fontSize" />
+        <attr name="normalColor" />
+        <attr name="activeColor" />
+    </declare-styleable>
+
+    <declare-styleable name="TabItemM2">
+        <attr name="text" />
+        <attr name="fontSize" />
+        <attr name="normalColor" />
+        <attr name="activeColor" />
+    </declare-styleable>
+
+    <declare-styleable name="TickButton">
+        <attr name="circleRadius" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="circleColor" format="color" />
+        <attr name="tickColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="image" />
+        <attr name="fontSize" />
+        <attr name="textColor" />
+        <attr name="cornerRadius" />
+        <attr name="border" />
+        <attr name="borderColor" />
+        <attr name="borderWidth" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundRectImageView">
+        <attr name="fontSize" />
+        <attr name="textColor" />
+        <attr name="cornerRadius" />
+        <attr name="border" />
+        <attr name="borderColor" />
+        <attr name="borderWidth" />
+    </declare-styleable>
+
+    <declare-styleable name="EasyList">
+        <attr name="maxHeight" />
+    </declare-styleable>
+
+    <declare-styleable name="OptimizedRadioButton">
+        <attr name="orb_drawable_size" format="dimension" />
+        <attr name="orb_animate" format="boolean" />
+        <attr name="orb_duration" format="integer" />
+        <attr name="orb_scale" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="OptimizedCheckBox">
+        <attr name="ocb_drawable_size" format="dimension" />
+        <attr name="ocb_animate" format="boolean" />
+        <attr name="ocb_duration" format="integer" />
+        <attr name="ocb_scale" format="float" />
+    </declare-styleable>
+</resources>

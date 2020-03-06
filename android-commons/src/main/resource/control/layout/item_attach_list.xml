@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="90dp">
+
+    <com.easing.commons.android.ui.control.attach_viewer.AttachViewer
+        android:id="@+id/attach_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|left"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/color_black_50"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/bt_remove"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|right"
+        android:clickable="true"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_close_m01" />
+</FrameLayout>

@@ -1,0 +1,40 @@
+<resources>
+
+    <!--
+            APP全局样式：
+            去除ActionBar
+            去除Material样式自带的按钮特效
+            白色窗口背景，白色ActionBar，黑色半透明StatuBar，淡黑色文字
+            淡蓝色按钮，淡黑色按钮文字
+            淡蓝色日期拾取器
+     -->
+    <style name="Easing" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="android:windowBackground">@color/color_black</item>
+        <item name="android:colorPrimary">@color/color_transparent</item>
+        <item name="android:colorPrimaryDark">@color/color_transparent</item>
+        <item name="android:textColor">@color/color_black_70</item>
+        <item name="android:textColorPrimary">@color/color_black_70</item>
+        <item name="android:textColorSecondary">@color/color_black_70</item>
+        <item name="android:colorAccent">@color/color_light_blue</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColorHint">@color/color_light_grey</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <item name="android:actionModeBackground">@drawable/color_transparent</item>
+        <item name="android:actionButtonStyle">@style/ToolbarActionButton</item>
+        <item name="android:actionOverflowButtonStyle">@style/ToolbarOverflowButton</item>
+        <item name="android:datePickerDialogTheme">@style/Easing.Dialog.LIGHT_BLUE</item>
+        <item name="android:timePickerDialogTheme">@style/Easing.Dialog.LIGHT_BLUE</item>
+        <item name="android:colorBackgroundFloating">@color/color_white</item>
+        <item name="android:colorBackground">@color/color_white</item>
+    </style>
+
+    <!-- APP全局样式：透明风格 -->
+    <style name="Easing.GLASS">
+        <item name="android:windowBackground">@drawable/color_transparent</item>
+        <item name="android:background">@drawable/color_transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

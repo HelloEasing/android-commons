@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Dialog样式：淡蓝色前景，白色背景，淡黑色文字 -->
+    <style name="Easing.Dialog.LIGHT_BLUE" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">@color/color_light_blue</item>
+    </style>
+
+</resources>

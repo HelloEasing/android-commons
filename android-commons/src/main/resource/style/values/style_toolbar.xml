@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Toolbar弹窗样式 -->
+    <style name="ToolbarPopup" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="android:divider">@drawable/split_m01</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:actionMenuTextColor">@color/color_white</item>
+        <item name="android:colorBackground">@color/color_black_20</item>
+        <item name="overlapAnchor">false</item>
+    </style>
+
+
+    <!-- Toolbar标题样式 -->
+    <style name="ToolbarTitle">
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Toolbar下拉按钮样式 -->
+    <style name="ToolbarOverflowButton" parent="@android:style/Widget.ActionButton.Overflow">
+        <item name="android:src">@drawable/white_icon_m01_menu</item>
+    </style>
+
+    <!-- Toolbar菜单按钮样式 -->
+    <style name="ToolbarActionButton">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">32dp</item>
+        <item name="android:minHeight">32dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+</resources>

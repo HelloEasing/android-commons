@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_file"
+        android:icon="@drawable/icon_qq"
+        android:title="文件"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_folder"
+        android:icon="@drawable/icon_qq"
+        android:title="目录"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_ok"
+        android:icon="@drawable/icon_qq"
+        android:title="确定"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_cancel"
+        android:icon="@drawable/icon_qq"
+        android:title="取消"
+        app:showAsAction="never" />
+</menu>

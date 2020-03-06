@@ -1,0 +1,101 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_anchorGravity="center">
+
+    <EditText
+        android:id="@+id/user_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_m01"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyz"
+        android:hint="请输入您的登录账号"
+        android:maxLength="25"
+        android:singleLine="true"
+        android:textColor="@color/color_white"
+        android:textCursorDrawable="@drawable/edit_cursor_m02" />
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_m01"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyz"
+        android:hint="请输入您的登录密码"
+        android:inputType="textPassword"
+        android:longClickable="false"
+        android:maxLength="25"
+        android:paddingRight="50dp"
+        android:singleLine="true"
+        android:textColor="@color/color_white"
+        android:textCursorDrawable="@drawable/edit_cursor_m02"
+        android:textIsSelectable="false"
+        app:layout_constraintTop_toBottomOf="@+id/user_edit" />
+
+    <Button
+        android:id="@+id/bt_eye"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/color_icon_m01_password_eye"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/password_edit"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintRight_toRightOf="@+id/password_edit"
+        app:layout_constraintTop_toTopOf="@+id/password_edit" />
+
+    <Button
+        android:id="@+id/bt_remember"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/icon_checkbox_m01"
+        app:layout_constraintLeft_toLeftOf="@+id/password_edit"
+        app:layout_constraintTop_toBottomOf="@+id/password_edit" />
+
+    <TextView
+        android:id="@+id/text_remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="记住密码"
+        android:textColor="@drawable/text_color_m01"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bt_remember"
+        app:layout_constraintLeft_toRightOf="@+id/bt_remember" />
+
+    <Button
+        android:id="@+id/bt_auto_login"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/icon_checkbox_m01"
+        app:layout_constraintBaseline_toBaselineOf="@+id/text_remember"
+        app:layout_constraintLeft_toRightOf="@+id/text_remember" />
+
+    <TextView
+        android:id="@+id/text_auto_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="自动登录"
+        android:textColor="@drawable/text_color_m01"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bt_auto_login"
+        app:layout_constraintLeft_toRightOf="@+id/bt_auto_login" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_m01"
+        android:text="登录"
+        android:textColor="@color/color_white"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="@+id/password_edit"
+        app:layout_constraintRight_toRightOf="@+id/password_edit"
+        app:layout_constraintTop_toBottomOf="@+id/bt_remember" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/anim_test_timo_m01"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/anim_test_timo_m02"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/anim_test_timo_m03"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/anim_test_timo_m04"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/anim_test_timo_m05"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/anim_test_timo_m06"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/anim_test_timo_m07"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/anim_test_timo_m08"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/anim_test_timo_m07"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/anim_test_timo_m06"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/anim_test_timo_m06"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/anim_test_timo_m05"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/anim_test_timo_m04"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/anim_test_timo_m03"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/anim_test_timo_m02"
+        android:duration="50" />
+</animation-list>

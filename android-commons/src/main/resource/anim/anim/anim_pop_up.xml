@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="500"
+    android:fillAfter="true"
+    android:fromXDelta="0"
+    android:fromYDelta="300"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:toXDelta="0"
+    android:toYDelta="0" />
+
+    <!--
+    form：           开始状态
+    to：             结束状态
+    duration：       持续时间
+    repeateCount：   重复次数
+    repeateMode：    重复模式
+    pivot：          动画中心
+    startOffset：    开始前间隔
+    fillBefore：     动画结束时保持原始状态
+    fillAfter：      动画结束时保持最终状态
+    interpolator：   插值器（定义FROM到TO的速度变化）
+    -->

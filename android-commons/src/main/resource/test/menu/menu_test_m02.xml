@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_ok"
+        android:icon="@drawable/white_icon_m01_yes"
+        android:title="确定"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_del"
+        android:icon="@drawable/white_icon_m01_del"
+        android:title="删除"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_cancel"
+        android:icon="@drawable/white_icon_m01_cancel"
+        android:title="取消"
+        app:showAsAction="always" />
+</menu>
