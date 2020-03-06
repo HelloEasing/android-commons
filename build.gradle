@@ -1,8 +1,11 @@
 buildscript {
     repositories {
-        jcenter()
-        mavenCentral()
+        maven {
+            url 'https://jitpack.io'
+        }
         google()
+        mavenCentral()
+        jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.0'
@@ -14,16 +17,11 @@ buildscript {
 allprojects {
     repositories {
         maven {
-            url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2'
-        }
-        maven {
-            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
-        }
-        maven {
             url 'https://jitpack.io'
         }
-        jcenter()
         google()
+        mavenCentral()
+        jcenter()
     }
 }
 
